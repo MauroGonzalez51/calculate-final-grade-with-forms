@@ -1,0 +1,1 @@
+export const isInput = (element) => element instanceof HTMLInputElement;
