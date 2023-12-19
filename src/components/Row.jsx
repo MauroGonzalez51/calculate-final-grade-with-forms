@@ -11,6 +11,7 @@ export function Row({ rowId, addRow, removeRow }) {
                     checkCases={false}
                     name="subject-name"
                     autoComplete="off"
+                    required
                 />
 
                 <Input
@@ -20,6 +21,7 @@ export function Row({ rowId, addRow, removeRow }) {
                     maxRange={5.0}
                     name="first"
                     autoComplete="off"
+                    required
                 />
 
                 <Input
@@ -29,6 +31,7 @@ export function Row({ rowId, addRow, removeRow }) {
                     maxRange={5.0}
                     name="second"
                     autoComplete="off"
+                    required
                 />
 
                 <Input
@@ -38,6 +41,7 @@ export function Row({ rowId, addRow, removeRow }) {
                     maxRange={5.0}
                     name="third"
                     autoComplete="off"
+                    required
                 />
 
                 <Input
@@ -47,6 +51,7 @@ export function Row({ rowId, addRow, removeRow }) {
                     maxRange={10}
                     name="noCredits"
                     autoComplete="off"
+                    required
                 />
             </div>
 
